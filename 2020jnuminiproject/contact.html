@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>eye contact</title>
+        <title></title>
+        <meta name="description" content="모두가 평등한 세상을 꿈구는 공간">
+        <link rel="icon" type="image/png" href="diversity(2).png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+       <style>
+/* CONTACT
+------------------------------- */
+#contact {
+    background-color:#5DDE7B;
+    min-height: 100vh;
+}
+
+/* 입력 양식 */
+form div {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    background: rgba(255,255,255,.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 240px;
+}
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+
+/* SNS */
+#sns {
+    background: #FAF7F0;
+    padding: 4% 0;
+}
+#sns .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+#sns .sub-title {
+    margin-bottom: 30px;
+}
+.sns-box {
+    width: 30%;
+}
+
+/* 푸터
+------------------------------- */
+footer {
+    background: #285E34;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+ </style>  
+
+
+    </head>
+
+    <body>
+        <div id="contact" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="index.html"><img class="logo" src="diversity.svg" alt="unconstrained_"></a></h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="login.html">LOG IN</a></li>
+                        <li><a href="execute.html">EXECUTE</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper">
+                <h2 class="page-title">Contact</h2>
+                <img src="images/1.jpg" width="400" height="400" alt="image">
+                <form action="#">
+                    <div>
+                        <label for="name">이름</label>
+                        <input type="text" id="name" name="your-name">
+                    </div>
+
+                    <div>
+                        <label for="email">메일 주소</label>
+                        <input type="email" id="email" name="your-email">
+                    </div>
+
+                    <div>
+                        <label for="message">메시지</label>
+                        <textarea id="message" name="your-message"></textarea>
+                    </div>
+
+                    <input type="submit" class="button" value="전송">
+                </form>
+            </div><!-- /.wrapper -->
+        </div><!-- /#contact -->
+<center>
+        <section id="sns">
+
+                <div class="sns-box">
+                    <h3 class="sub-title">Youtube</h3>
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/vgDGzU0giaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div><!-- /.wrapper -->
+        </section><!-- /#sns -->
+    </center>
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2020 jnu webprogramming miniproject</small></p>
+            </div>
+        </footer>
+    </body>
+</html>
+
